@@ -1,0 +1,32 @@
+body {
+    font-family: "Arial", sans-serif;
+    user-select: none;
+}
+
+section {
+    text-align: center;
+}
+
+section h1 {
+    color: black;
+
+    margin: 2pc auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    outline: 1px solid #333333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
